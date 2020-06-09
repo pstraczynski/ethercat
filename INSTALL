@@ -20,7 +20,7 @@ For the impatient: The procedure mainly consists of calling
 
 $ ./boostrap # to create the configure script, if downloaded from the repo
 
-$ ./configure
+$ ./configure --prefix=/opt --enable-e1000e --enable-igb --enable-rtdm --enable-generic --with-xenomai-dir=/usr 
 $ make all modules
 
 ... and as root:
